@@ -4,7 +4,7 @@ plugins {
 }
 
 group = "net.raphdf201"
-version = "0.1"
+version = "0.2"
 
 repositories {
     mavenCentral()
@@ -17,7 +17,7 @@ publishing {
         create<MavenPublication>("maven") {
             groupId = "net.raphdf201"
             artifactId = "lib"
-            version = "0.1"
+            version = "0.2"
 
             from(components["java"])
         }
