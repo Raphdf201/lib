@@ -27,8 +27,8 @@ publishing {
             name = "GitHubPackages"
             url = uri("https://maven.pkg.github.com/raphdf201/lib")
             credentials {
-                username = "Raphdf201"
-                password = System.getenv("GITHUB_TOKEN")
+                username = "raphdf201"
+                password = System.getenv("TOKEN")
             }
         }
     }
